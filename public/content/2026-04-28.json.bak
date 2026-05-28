@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "lesson_date": "2026-04-28",
+  "checksum": "",
+  "lessons": [
+    {
+      "level": "A1",
+      "topic": {
+        "topic_id": 100001,
+        "title": "At the Hotel Reception",
+        "description": "Basic phrases for checking in at a hotel."
+      },
+      "conversation": {
+        "conversation_id": 100000001,
+        "topic_id": 100001,
+        "title": "Checking in at the hotel",
+        "practice_date": "2026-04-28",
+        "level": "A1"
+      },
+      "conversation_lines": [
+        {
+          "line_id": 1,
+          "conversation_id": 100000001,
+          "speaker": "Receptionist",
+          "text_en": "Hello. Welcome to our hotel.",
+          "text_es": "Hola. Bienvenido a nuestro hotel.",
+          "order_index": 1
+        },
+        {
+          "line_id": 2,
+          "conversation_id": 100000001,
+          "speaker": "Guest",
+          "text_en": "Hi. I have a reservation.",
+          "text_es": "Hola. Tengo una reserva.",
+          "order_index": 2
+        },
+        {
+          "line_id": 3,
+          "conversation_id": 100000001,
+          "speaker": "Receptionist",
+          "text_en": "What is your name?",
+          "text_es": "¿Cuál es su nombre?",
+          "order_index": 3
+        },
+        {
+          "line_id": 4,
+          "conversation_id": 100000001,
+          "speaker": "Guest",
+          "text_en": "My name is Ana.",
+          "text_es": "Mi nombre es Ana.",
+          "order_index": 4
+        }
+      ],
+      "conversation_vocabulary": [
+        {
+          "vocab_id": 1,
+          "conversation_id": 100000001,
+          "word_en": "hotel",
+          "word_es": "hotel",
+          "example_en": "This hotel is nice.",
+          "example_es": "Este hotel es bonito."
+        },
+        {
+          "vocab_id": 2,
+          "conversation_id": 100000001,
+          "word_en": "reservation",
+          "word_es": "reserva",
+          "example_en": "I have a reservation.",
+          "example_es": "Tengo una reserva."
+        },
+        {
+          "vocab_id": 3,
+          "conversation_id": 100000001,
+          "word_en": "name",
+          "word_es": "nombre",
+          "example_en": "What is your name?",
+          "example_es": "¿Cuál es tu nombre?"
+        }
+      ],
+      "conversation_grammar_reviews": [
+        {
+          "grammar_id": 1,
+          "conversation_id": 100000001,
+          "title": "Verb to be",
+          "explanation_en": "Use 'is' for one person or thing.",
+          "example_en": "My name is Ana.",
+          "question": "Complete: My name ___ Ana.",
+          "correct_answer": "is",
+          "options": ["is", "are", "am"]
+        }
+      ],
+      "conversation_listening_challenges": [
+        {
+          "listening_id": 1,
+          "conversation_id": 100000001,
+          "audio_text_en": "I have a reservation.",
+          "question": "What does the guest have?",
+          "correct_answer": "a reservation",
+          "options": ["a reservation", "a bag", "a room"]
+        }
+      ],
+      "conversation_phrasal_verbs": [
+        {
+          "phrasal_id": 1,
+          "conversation_id": 100000001,
+          "phrasal_verb": "check in",
+          "meaning_es": "registrarse en un hotel",
+          "example_en": "I want to check in.",
+          "example_es": "Quiero registrarme."
+        }
+      ],
+      "conversation_verb_tenses": [
+        {
+          "tense_id": 1,
+          "conversation_id": 100000001,
+          "tense": "Simple Present",
+          "sentence": "I have a reservation.",
+          "question": "Which verb is in simple present?",
+          "correct_answer": "have"
+        }
+      ]
+    }
+  ]
+}

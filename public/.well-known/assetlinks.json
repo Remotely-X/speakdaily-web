@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.speakdaily.app",
+      "sha256_cert_fingerprints": [
+        "31:80:B6:C5:23:7B:CE:8D:57:4A:AA:B8:8C:08:7C:B9:1E:E7:78:B1:87:11:82:9D:E2:7F:30:94:0A:8A:58:23"
+      ]
+    }
+  }
+]
