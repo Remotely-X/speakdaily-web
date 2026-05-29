@@ -1916,6 +1916,11 @@ h3 {
   font-weight: 800;
 }
 
+.policy-document .play-button,
+.policy-document .play-button:visited {
+  color: #fff;
+}
+
 .policy-footer {
   margin-top: 0;
 }
