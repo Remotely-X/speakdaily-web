@@ -1887,6 +1887,29 @@ h3 {
   padding-left: 22px;
 }
 
+.policy-steps {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0 18px;
+  padding-left: 22px;
+}
+
+.deletion-action {
+  margin-top: 22px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--blue-100);
+}
+
+.deletion-action .play-button {
+  margin-bottom: 12px;
+}
+
+.deletion-action p {
+  margin-bottom: 0;
+}
+
 .policy-document a,
 .policy-footer a {
   color: var(--blue-700);
@@ -1895,6 +1918,12 @@ h3 {
 
 .policy-footer {
   margin-top: 0;
+}
+
+.policy-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 @media (max-width: 1120px) {
