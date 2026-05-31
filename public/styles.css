@@ -1433,7 +1433,7 @@ h3 {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: 1fr 280px 280px;
+  grid-template-columns: minmax(260px, 1fr) repeat(3, minmax(0, 238px));
   gap: 22px;
   align-items: stretch;
 }
@@ -1444,6 +1444,8 @@ h3 {
 }
 
 .price-card {
+  display: flex;
+  flex-direction: column;
   padding: 26px;
   box-shadow: 0 12px 28px rgba(24, 66, 148, 0.1);
 }
@@ -1467,7 +1469,7 @@ h3 {
   justify-content: center;
   min-height: 42px;
   width: 100%;
-  margin-top: 16px;
+  margin-top: auto;
   border-radius: 8px;
   color: var(--blue-700);
   background: var(--blue-100);
@@ -1986,7 +1988,7 @@ h3 {
   }
 
   .pricing-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .pricing-copy {
